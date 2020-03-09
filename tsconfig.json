@@ -1,7 +1,7 @@
 {
     "compilerOptions": {
         "baseUrl": "./",
-        "target": "ES5",
+        "target": "ES2018",
         "module": "commonjs",
         "moduleResolution": "node",
         "emitDecoratorMetadata": true,
@@ -12,7 +12,7 @@
         "declaration": true,
         "noUnusedParameters": true,
         "noUnusedLocals": true,
-        "lib": ["es2015", "es2015.iterable", "dom"],
+        "lib": ["es2018", "dom"],
         "paths": {
           "devextreme-angular": ["src"],
           "devextreme-angular/*": ["src/*"]
